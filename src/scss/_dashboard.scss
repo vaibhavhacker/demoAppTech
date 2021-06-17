@@ -1,0 +1,96 @@
+.dashboard-continer {
+    width: 80%;
+    .users-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        height: 220px;
+        overflow-y: auto;
+        .user-thumbnail {
+            flex: 0 0 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #eee;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .view-more {
+        display: flex;
+        justify-content: center;
+        .btn {
+            width: 120px;
+            background-color: green;
+            text-align: center;
+            padding: 5px;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+    }
+    .user-details {
+        font-size: 14px;
+        .user-table {
+            .viewing {
+                font-size: 14px;
+            }
+            .name {
+                border: 1px solid #000;
+            }
+            .profile {
+                display: flex;
+                border: 1px solid #000;
+                .user-img {
+                    width: 20%;
+                    display: flex;
+                    border: 1px solid #000;
+                    justify-content: center;
+                    height: 100px;
+                    align-items: center;
+                    img {
+                        width: 80px;
+                        height: 80px
+                    }
+                }
+                .user-info {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .username {
+                        border: 1px solid #000; 
+                    }
+                }
+            }
+            .email {
+                border: 1px solid #000;
+                display: flex;
+                .email-text {
+                    width: 20%;
+                    border: 1px solid #000; 
+                }
+            }
+            .phone {
+                border: 1px solid #000;
+                display: flex;
+                .phone-text {
+                    width: 20%;
+                    border: 1px solid #000; 
+                }
+            }
+        }
+    }
+}
+.img{  
+    height: 300px;  
+    width: 300px;  
+    }  
+    #center {  
+    text-align: center;  
+    } 
