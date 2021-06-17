@@ -1,5 +1,7 @@
-Use: **npm install**
-to run: **npm start**
+Use to install dependencies: **npm install**
+
+
+to run applicatoin: **npm start**
 
 # Getting Started with Create React App
 
